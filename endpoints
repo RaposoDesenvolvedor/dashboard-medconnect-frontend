@@ -1,0 +1,81 @@
+Aba Principal
+- EndPoint: dashboard/main/statistics/patientsTreatedToday
+{
+    patient,
+}
+
+- EndPoint: dashboard/main/statistics/surgicalProcedures
+{
+    procedures,
+}
+
+- EndPoint: dashboard/main/statistics/turnoutRate
+{
+    procedures,
+}
+
+- EndPoint: dashboard/main/statistics/avarageConsultationTime
+{
+    procedures,
+}
+
+- EndPoint: dashboard/main/tasks
+[
+{
+    taskId,
+    taskName,
+    taskStatus.
+    isPriority,
+},
+]
+
+- EndPoint: dashboard/main/agenda/schedules
+[
+{
+    scheduleId,
+    scheduleName,
+    startTime,
+    endTime,
+}
+]
+
+- EndPoint: dashboard/main/agenda/workTime
+{
+    workTimeStart,
+    workTimeEnd,
+}
+
+---
+Aba financeira
+- EndPoint: dashboard/financial/proceduresPayment
+[
+{
+    healthPlanName,
+    procedureValue,
+}
+]
+
+- EndPoint: dashboard/financial/operationalCosts
+[
+{
+    costName,
+    costDescription,
+    costValue
+}
+]
+
+- EndPoint: dashboard/service/rating
+{
+    ratingValue,
+}
+
+- EndPoint: dashboard/service/patients
+{
+    birthDate,
+    sex,
+}
+
+- EndPoint: dashboard/service/healthPlanPatients
+{
+    healthPlanName,
+}

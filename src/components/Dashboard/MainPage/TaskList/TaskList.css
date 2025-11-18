@@ -1,0 +1,50 @@
+.tasks-div {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.task-component {
+    width: 100%;
+    min-height: 40px;
+    border: 2px solid var(--primary-color);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.status-indicator {
+    width: 20px;
+    height: 20px;
+    border: 1px black solid;
+    border-radius: 100%;
+}
+
+.status-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 25%;
+}
+
+.task-name {
+    margin-left: 20px;
+    width: 75%;
+    line-height: 0.9;
+}
+
+ul {
+  list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+li {
+    margin-bottom: 10px;
+}

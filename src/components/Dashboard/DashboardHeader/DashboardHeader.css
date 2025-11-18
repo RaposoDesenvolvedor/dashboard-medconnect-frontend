@@ -1,0 +1,28 @@
+.dashboard-header {
+    height: 65px;
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    background-color: white;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.medconnect-logo {
+    height: 100%;
+    
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    margin-left: 60px;
+
+    transform: scale(1.5);
+}
+
+.dashboard-title {
+    align-self: center;
+    
+    color: var(--primary-color);
+    font-size: 18pt;
+}

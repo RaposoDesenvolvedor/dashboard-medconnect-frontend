@@ -1,0 +1,35 @@
+.information-placeholder {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+  padding: 20px 20px;
+
+  overflow-y: auto;
+  background-color: white;
+}
+
+.information-placeholder::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.information-placeholder::-webkit-scrollbar-track {
+  background: white;
+}
+
+.information-placeholder::-webkit-scrollbar-button {
+  width: 10px;
+}
+
+.information-placeholder::-webkit-scrollbar-thumb {
+  background: var(--primary-alternative-color);
+  border-radius: 50px;
+  transition: 200ms;
+}
+
+.information-placeholder::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-color);
+}

@@ -1,0 +1,45 @@
+.service-stats {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.service-stat-placeholder {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.service-stat-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+p {
+  margin: 0;
+}
+
+.value {
+  font-size: 22pt;
+  color: var(--primary-color);
+}
+
+.information {
+  font-size: 10pt;
+}
+
+span {
+  padding: 10px 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

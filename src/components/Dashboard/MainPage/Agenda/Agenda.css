@@ -1,0 +1,83 @@
+.agenda-display {
+  width: 100%;
+  height: 100%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  position: relative;
+  overflow: auto;
+}
+
+.hour-block {
+  height: 60px;
+  width: 100%;
+  box-sizing: border-box;
+  border-top: 1px solid rgb(0, 0, 0, 0.9);
+  border-bottom: 1px solid rgb(0, 0, 0, 0.9);
+}
+
+.hour-block-section {
+  height: 30px;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+}
+
+.hour-section-middle {
+  border-bottom: 1px solid grey;
+  box-sizing: border-box;
+
+  z-index: 1;
+}
+
+.schedule {
+  right: 0;
+  margin-right: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-radius: 20px;
+  z-index: 2;
+}
+
+.schedule-name {
+  overflow: hidden;
+  margin-left: 20px;
+  font-size: 10pt;
+}
+
+.work-time {
+  background-color: rgb(235, 235, 235);
+}
+
+.day-time {
+  position: absolute;
+  top: 2px;
+  margin-left: 5px;
+  font-size: 8pt;
+}
+
+/* Scrollbar configuration */
+.agenda-display::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.agenda-display::-webkit-scrollbar-track {
+  background: white;
+  border-radius: 20px;
+}
+
+.agenda-display::-webkit-scrollbar-button {
+  width: 10px;
+}
+
+.agenda-display::-webkit-scrollbar-thumb {
+  background: var(--primary-alternative-color);
+  border-radius: 50px;
+  transition: 200ms;
+}
+
+.agenda-display::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-color);
+}

@@ -1,0 +1,18 @@
+.charts-placeholder {
+  display: flex;
+
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.chart-div {
+  height: 100%;
+}
+
+.chart {
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid var(--primary-color)
+}

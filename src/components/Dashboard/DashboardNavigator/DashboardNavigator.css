@@ -1,0 +1,46 @@
+.dashboard-nav {
+    width: auto;
+    height: auto;
+
+    justify-content: center;
+    display: flex;
+    align-self: center;
+    margin: 15px 0px;
+
+    transition: 200ms;
+
+    border-radius: 50px;
+    border: 1px solid var(--primary-color);
+    background-color: white;
+}
+
+.dashboard-nav-btn {
+    height: 50px;
+    width: 160px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-color: white;
+    color: var(--primary-color);
+    border-radius: 50px;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.dashboard-nav-btn:hover {
+    width: 200px;
+
+    background-color: var(--primary-alternative-color);
+    color: white;
+}
+
+.active {
+    width: 200px;
+
+    background-color: var(--primary-color);
+    color: white;
+}

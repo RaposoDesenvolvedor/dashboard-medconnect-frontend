@@ -1,0 +1,30 @@
+.dashboard-page {
+  height: auto;
+  width: 1200px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.dashboard-info {
+  display: flex;
+  gap: 30px; 
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard-statistics {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
