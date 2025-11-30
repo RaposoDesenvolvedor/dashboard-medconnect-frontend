@@ -41,7 +41,7 @@ export default function ServicePage() {
   };
 
   const serviceStatistics = {
-    rating: 5,
+    rating: 4.8,
     newPatientsQuantity: 12,
   };
 

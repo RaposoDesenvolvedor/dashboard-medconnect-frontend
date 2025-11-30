@@ -51,72 +51,90 @@ export default function MainPage() {
   const schedules = [
     {
       id: 1,
-      name: "Teste",
-      startTime: "18:00",
-      endTime: "19:00",
+      name: "Reunião Matinal",
+      startTime: "07:00",
+      endTime: "07:30",
     },
     {
       id: 2,
-      name: "Teste 2",
+      name: "Atendimento: Benetida Soares",
+      startTime: "08:00",
+      endTime: "09:00",
+    },
+    {
+      id: 3,
+      name: "Atendimento: Flávia Biseth",
+      startTime: "09:30",
+      endTime: "10:30",
+    },
+    {
+      id: 3,
+      name: "Evento Online",
+      startTime: "14:00",
+      endTime: "16:00",
+    },
+    {
+      id: 4,
+      name: "Horário de Almoço",
       startTime: "13:00",
       endTime: "14:00",
     },
     {
-      id: 3,
-      name: "Reunião",
-      startTime: "07:00",
-      endTime: "10:00",
+      id: 4,
+      name: "Procedimento Cirúrgico: Sandro Martins",
+      startTime: "11:00",
+      endTime: "12:30",
     },
   ];
-
+  
   const tasks = [
     {
       id: 1,
-      name: "Finalizar relatório mensal",
+      name: "Revisão e pedido de estoque de anestésicos e luvas",
       status: "Pending",
       isPriority: true,
     },
     {
       id: 2,
-      name: "Revisar código da feature X",
+      name: "Limpar e esterilizar instrumentos cirúrgicos - Lote da manhã",
       status: "In progress",
       isPriority: true,
     },
     {
       id: 3,
-      name: "Agendar reunião com time de design",
-      status: "Finished",
-      isPriority: false,
+      name: "Ligar para o Laboratório: Confirmar entrega da Prótese do Paciente M. Silva",
+      status: "Pending",
+      isPriority: true,
     },
     {
       id: 4,
-      name: "Responder e-mails de clientes",
+      name: "Preencher e arquivar as fichas médicas dos 5 novos pacientes",
       status: "Pending",
       isPriority: false,
     },
     {
       id: 5,
-      name: "Instalar atualizações do sistema operacional",
+      name: "Enviar lembretes de consultas por SMS/WhatsApp (Próxima semana)",
       status: "In progress",
       isPriority: false,
     },
     {
       id: 6,
-      name: "Instalar atualizações do sistema operacional",
-      status: "In progress",
+      name: "Organizar e atualizar a sala de espera com revistas novas",
+      status: "Finished",
       isPriority: false,
     },
     {
       id: 7,
-      name: "Instalar atualizações do sistema operacional",
-      status: "In progress",
+      name: "Pesquisar curso online sobre novas técnicas de Odontologia Estética",
+      status: "Pending",
       isPriority: false,
     },
     {
       id: 8,
-      name: "Instalar atualizações do sistema operacional",
-      status: "In progress",
-      isPriority: false,
+      name: "Realizar backup diário do sistema de agendamento e Raio-X",
+      status: "Finished",
+      isPriority: true,
     },
   ];
 

@@ -45,7 +45,7 @@ export default function ServiceStatistics({data}) {
       <Separator position="vertical"/>
       <Rating rating={data.rating}/>
       <Separator position="vertical"/>
-      <NewPatients value={data.newPatientsQuantity}/>
+      <NewPatients number={data.newPatientsQuantity}/>
       <Separator position="vertical"/>
     </InformationPlaceholder>
   );
